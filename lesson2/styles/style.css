@@ -49,6 +49,14 @@ footer {
     font-family: 'Merriweather', serif;
 }
 
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
 @media only screen and (min-width: 800px)
 {
     section {
