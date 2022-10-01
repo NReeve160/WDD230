@@ -1,12 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
-
 body {
-    font-family: 'Ubuntu', sans-serif;
-}
-
-h2, h1{
-    font-family: 'Abyssinica SIL', serif;
+    text-align: center;
 }
 
 #map {
@@ -20,6 +13,11 @@ nav {
 
 @media (min-width: 37.5em) {
 	nav {
-		flex-direction: row;
+        flex-direction: row;
+        justify-content: center;
 	}
+
+    nav a {
+        padding: 5px;
+    }
 }
