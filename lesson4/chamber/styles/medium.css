@@ -1,0 +1,99 @@
+@media (min-width: 700px) {
+    /* Header */
+    .socials img {
+        max-width: 15%;
+    }
+
+    .socials, #ham_button {
+        margin-top: 3.5em;
+    }
+
+    /* main */
+    main div{
+        text-align: left;
+        margin: 1px;
+    }
+
+    main {
+        display: grid;
+    }
+
+    .hero {
+        grid-row-start: 1;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .news {
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .spotlights {
+        display: flex;
+        grid-row-start: 3;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .spotlights p {
+        margin-left: 25%;
+    }
+
+    .join {
+        display: grid;
+        grid-row-start: 4;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .event {
+        grid-row-start: 5;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .weather {
+        grid-row-start: 5;
+        grid-column-start: 3;
+    }
+
+    footer {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .footer_logo {
+        margin: 0px;
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .the_crick {
+        margin: 0px;
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    .contact {
+        margin: 0px;
+        grid-row-start: 1;
+        grid-column: 4;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .developer_info {
+        margin-left: 0px;
+        margin-right: 0px;
+        grid-row: 2;
+        grid-column-start: 1;
+        grid-column-end: 6;
+        display: flex;
+        text-align: center;
+    }
+}

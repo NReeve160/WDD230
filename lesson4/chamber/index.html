@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Crick Chamber of Commerce</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="BYU-I portal to view assignments for WDD230 created by the Nathan Reeve">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Nathan Reeve">
+        <link rel="normalize" href="../../styles/normalize.css">
+        <link rel="stylesheet" href="styles/mobile.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+    </head>
+
+    <body>
+        <header>
+            <img src="images/Logo.png" alt="Logo Image" id="logo">
+            <div class="socials">
+                <img src="images/freepik-facebook.png" alt="Created by FreePik - Facebook Icon">
+                <img src="images/freepik-linkedin.png" alt="created by FreePik - LinkedIn Icon">
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li><a class="ham" href="#">Menu</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="current_date">
+            <span id="date"></span>
+        </div>
+
+        <main>
+            <div class="hero">
+                <p>Hero with site name and call to action</p>
+            </div>
+
+            <div class="event">
+                <p>Event</p>
+            </div>
+
+            <div class="weather">
+                Weather
+            </div>
+
+            <div class="news">
+                <p>News Release</p>
+            </div>
+
+            <div class="spotlights">
+                    <p>Spotlight 1</p>
+
+                    <p>Spotlight 2</p>
+
+                    <p id="spotlight3">Spotlight 3</p>
+            </div>
+
+            <div class="join">
+                <p>Join</p>
+            </div>
+
+            <footer>
+                <div class="footer_logo">
+                    <img src="images/Logo.png">
+                </div>
+                <div class="the_crick">
+                    <h3>The Crick Chamber of Commerce</h3>
+                    <p>North of Ezry, to the Right of the Living Wood</p>
+                </div>
+
+                <div class="contact">
+                    <p>Info@TheCrick.com</p>
+                    <p>Ask for "Cooter" on your speaking stone</p>
+                    <p>&#128204; Location Map</p>
+                </div>
+                <hr>
+
+                <div class="developer_info">
+                    <p>&copy; <span id="currentYear"></span> The Crick Chamber of Commerce | Nathan Reeve
+                    | WDD 230 Project</p>
+                    <p>Last Updated: <span id="updatedDate"></span></p>
+                </div>
+            </footer>
+        </main>
+        <script src="scripts/date.js"></script>
+        <script src="../../scripts/updated.js"></script>
+        <script src="scripts/hambutton.js"></script>
+    </body>
+</html>
