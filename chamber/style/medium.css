@@ -1,0 +1,67 @@
+@media (min-width: 700px) {
+    header {
+        margin-right: 2em;
+    }
+
+    .logo img {
+        margin-left: 100%;
+    }
+
+    .social {
+        margin-top: 1.5em;
+    }
+
+    .social img {
+        max-width: 10%;
+    }
+
+    main {
+        display: grid;
+    }
+    
+    .hero {
+        grid-row: 1;
+    }
+
+    .news {
+        grid-row: 2;
+    }
+
+    .spotlight {
+        display: flex;;
+        grid-row: 3;
+    }
+
+    .join {
+        display: block;
+        grid-row: 4;
+    }
+
+    .event {
+        grid-row: 5;
+        grid-column: 1;
+    }
+
+    .weather {
+        grid-row: 5;
+        grid-column: 2;
+    }
+
+    footer {
+        display: grid;
+    }
+
+    #footer {
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .address {
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    .last_modified {
+        grid-column: 1 / span 2;
+    }
+}
