@@ -1,0 +1,16 @@
+body {
+    background-color: pink;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+#hello-world {
+    background-color: orange;
+}
+
+body #hello-world {
+    background-color: blueviolet;
+}
