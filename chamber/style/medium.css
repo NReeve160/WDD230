@@ -18,6 +18,10 @@
     main {
         display: grid;
     }
+
+    img:hover {
+        box-shadow: 5px 5px #081F4E;
+    }
     
     .hero {
         grid-row: 1;
