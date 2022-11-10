@@ -1,0 +1,61 @@
+<!DOCTYPE html5>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Page to practice lazy loading">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Nathan Reeve">
+        <title>Lazy Loading</title>
+        <link rel="stylesheet" href="../styles/normalize.css">
+        <link rel="stylesheet" href="lazyload.css">
+    </head>
+
+    <body>
+    <h1>Lazy Loading</h1>
+
+        <picture id="image1">
+            <img src="images/placeholder.jpg" 
+            data-src="images/image-1.jpg"
+            alt="first image"
+            loading="lazy">
+        </picture>
+
+        <picture id="image1">
+            <img src="images/placeholder.jpg" 
+            data-src="images/image-2.jpg"
+            alt="second image"
+            loading="lazy">
+        </picture>
+
+        <picture id="image1">
+            <img src="images/placeholder.jpg" 
+            data-src="images/image-3.jpg"
+            alt="third image"
+            loading="lazy">
+        </picture>
+
+        <picture id="image1">
+            <img src="images/placeholder.jpg" 
+            data-src="images/image-4.jpg"
+            alt="fourth image"
+            loading="lazy">
+        </picture>
+
+        <picture id="image1">
+            <img src="images/placeholder.jpg" 
+            data-src="images/image-5.jpg"
+            alt="fifth image"
+            loading="lazy">
+        </picture>
+
+        <picture id="image1">
+            <img src="images/placeholder.jpg" 
+            data-src="images/image-6.jpg"
+            alt="sixth image"
+            loading="lazy">
+        </picture>
+
+    </body>
+    <script src="lazyload.js" defer></script>
+</html>
