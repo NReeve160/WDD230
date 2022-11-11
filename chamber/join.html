@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Join The Crick Chamber of Commerce</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce for The Crick">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Nathan Reeve">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="style/mobile.css">
+    <link rel="stylesheet" href="style/medium.css">
+    <link rel="stylesheet" href="style/large.css">
+    <link rel="stylesheet" href="style/join.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/Logo.png" alt="The Crick Logo">
+        </div>
+        <div class="social">
+            <img src="images/freepik-facebook.png" alt="Facebook, created by Freepik">
+            <img src="images/freepik-instagram.png" alt="linkedIn">
+        </div>
+    </header>
+    
+    <main>
+        <form action="thankyou.html" method="get" id="form">
+            <label for="fname"><h2>First Name</h2></label>
+            <input type="text" id="fname" name="fname" required>
+
+            <label for="lname"><h2>Last Name</h2></label>
+            <input type="text" id="lname" name="lname" required>
+
+            <label for="bposition"><h2>Business Position Title</h2></label>
+            <input type="text" id="bposition" name="bposition">
+            <p id="output"></p>
+
+            <lable for="telephone"><h2>Telephone Number</h2></lable>
+            <input type="tel" id="telephone" name="telephone" required>
+
+            <label for="email"><h2>Email</h2></label>
+            <input type="text" id="email" name="email" placeholder="example@mail.com" required>
+
+            <label for="bname"><h2>Business Name</h2></label>
+            <input type="text" id="bname" name="bname" required>
+
+            <label for="level"><h2>Choose a Level</h2></label>
+            <input type="radio" id="level1" name="level1">Level 1
+            <input type="radio" id="level2" name="level2">Level 2
+            <input type="radio" id="level3" name="level3">Level 3
+            <input type="radio" id="level4" name="level4">Level 4
+
+            <label for="bdescription">Business Description</label>
+            <input type="textarea" id="bdescription" name="bdescription">
+
+            <input type="submit" id="submit" name="submit">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> | Nathan Reeve | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+        <p>Last Updated: <span id="updatedDate"></span></p>
+    </footer>
+    <script src="script/script.js"></script>
+    <script src="../scripts/updated.js"></script>
+    <script src="script/join.js"></script>
+</body>
