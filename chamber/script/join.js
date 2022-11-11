@@ -16,4 +16,5 @@ function testInfo(bpositionInput) {
 form.addEventListener('submit', (event) => {
   event.preventDefault();
   testInfo(input);
+  document.body.innerHTML = <a href="thankyou.html"></a>
 });

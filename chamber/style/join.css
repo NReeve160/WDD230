@@ -5,6 +5,10 @@ form {
     margin-bottom: 1em;
 }
 
+form h2 {
+    color: #6796a7;
+}
+
 input {
     width: 30%;
     text-align: center;
