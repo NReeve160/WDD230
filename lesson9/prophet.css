@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    justify-content: center;
+}
+
+section {
+    background-color: #219ebc;
+    border-radius: 1em;
+    border: solid 5px;
+    margin-bottom: 2em;
+}
+
+section img {
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+
+img:hover {
+    box-shadow: 10px 5px 5px #023047;
+}
+
+main h2 {
+    color: white;
+}
+
+@media only screen and(min-width: 700px) {
+    body  {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 60rem) {
+    .cards {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 1em;
+    }
+
+    .cards img  {
+        max-width: 80%;
+    }
+
+    .cards img:hover {
+        max-width: 100%;
+    }
+}
