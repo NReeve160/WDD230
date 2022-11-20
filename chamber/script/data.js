@@ -29,7 +29,6 @@ fetch(requestURL)
         membership.textContent = 'Membership: ' + businesses[i].membership;
     
         card.appendChild(h2);
-        card.appendChild(name);
         card.appendChild(address);
         card.appendChild(image);
         card.appendChild(phone);
