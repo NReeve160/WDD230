@@ -9,24 +9,33 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
 
-    const prophets = jsonObject['prophets'];
+    const businesses = jsonObject['prophets'];
     for (let i = 0; i < prophets.length; i++) {
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
-        let bDay = document.createElement('p');
-        let bPlace = document.createElement('p');
+        let name = document.createElement('p');
+        let address = document.createElement('p');
+        let phone = document.createElement('p');
+        let website = document.createElement('p');
         let image = document.createElement('img');
+        let membership = document.createElement('p');
     
-        image.setAttribute('src', prophets[i].imageurl);
-        image.setAttribute('alt', `${prophets[i].name} ${prophets[i].lastname} - ${prophets[i].order}`);
-        h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-        bDay.textContent = 'Birthdate: ' + prophets[i].birthdate;
-        bPlace.textContent = 'Birthplace: ' + prophets[i].birthplace;
+        image.setAttribute('src', businesses[i].imageurl);
+        image.setAttribute('alt', `${businesses[i].name} ${businesses[i].lastname} - ${businesses[i].order}`);
+        h2.textContent = businesses[i].name + ' ' + businesses[i].lastname;
+        name.textContent = 'Name: ' + businesses[i].name;
+        address.textContent = 'Address: ' + businesses[i].address;
+        phone.textContent = 'Phone: ' + businesses[i].phone;
+        website.textContent = 'Website: ' + businesses[i].website;
+        membership.textContent = 'Membership: ' + businesses[i].membership;
     
         card.appendChild(h2);
-        card.appendChild(bDay);
-        card.appendChild(bPlace);
+        card.appendChild(name);
+        card.appendChild(address);
         card.appendChild(image);
+        card.appendChild(phone);
+        card.appendChild(website);
+        card.appendChild(membership);
         document.querySelector('div.cards').appendChild(card);
     } 
     
