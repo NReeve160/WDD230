@@ -1,0 +1,76 @@
+{
+    "businesses": [
+        {
+            "name": "Crick Realtor - Cooter",
+            "address": "The Whisper Woods",
+            "phone": "ask for Cooter or Sparilla on the speaking stone",
+            "website": "crickreality.com",
+            "imageurl": "https://raw.githubusercontent.com/NReeve160/WDD230/main/chamber/images/grandma-tree.jpg",
+            "membership": "Mud Level"
+        },
+        {
+            "name": "Cricketeers",
+            "address": "The stump up by fork in The Crick",
+            "phone": "Cooter on your speaking stone",
+            "website": "cricketeers.edu",
+            "imageurl": "https://raw.githubusercontent.com/NReeve160/WDD230/main/chamber/images/grandma-tree.jpg",
+            "membership": "Mud Level"
+        },
+        {
+            "name": "Grandma Tree",
+            "address": "The big tree in the middle",
+            "phone": "MeeMaw on the speaking stone",
+            "website": "grandmagrandmatree.gov",
+            "imageurl": "https://raw.githubusercontent.com/NReeve160/WDD230/main/chamber/images/grandma-tree.jpg",
+            "membership": "Leaf Level"
+        },
+        {
+            "name": "Crick Lybrary",
+            "address": "The stump without the roof",
+            "phone": "That other Cooter on the speaking stone",
+            "website": "crickbooklearninplace.com",
+            "imageurl": "https://raw.githubusercontent.com/NReeve160/WDD230/main/chamber/images/grandma-tree.jpg",
+            "membership": "Mud Level"
+        },
+        {
+            "name": "Future Halfling Villiage",
+            "address": "The Crick but in about 200 years",
+            "phone": "Currently unavailable",
+            "website": "Balnoresrivertunafuture.com",
+            "imageurl": "https://raw.githubusercontent.com/NReeve160/WDD230/main/chamber/images/grandma-tree.jpg",
+            "membership": "Huffing Level"
+        },
+        {
+            "name": "Balnores Tuna",
+            "address": "At Balnore when he is here",
+            "phone": "Balnore on the speaking stone",
+            "website": "Balnoresrivertunanow.com",
+            "imageurl": "https://raw.githubusercontent.com/NReeve160/WDD230/main/chamber/images/grandma-tree.jpg",
+            "membership": "Leaf Level"
+        },
+        {
+            "name": "Hardwons Fit Stump",
+            "address": "The Stump near the Grandma Tree, Carved like a Thigh",
+            "phone": "Call Josh in the Nine Hells on your Speaking Stone",
+            "website": "youwillneverbethisjacked.com",
+            "imageurl": "https://raw.githubusercontent.com/NReeve160/WDD230/main/chamber/images/grandma-tree.jpg",
+            "membership": "Mud Level"
+        },
+        {
+            "name": "MoonShines Crick Water",
+            "address": "The stump near the dirt road into The Crick",
+            "phone": "Call Balnore on the Speaking stone, the Now Balnore",
+            "website": "crickwater.com",
+            "imageurl": "https://raw.githubusercontent.com/NReeve160/WDD230/main/chamber/images/grandma-tree.jpg",
+            "membership": "Leaf Level"
+        },
+        {
+            "name": "Jens Lyndelle Family Counseling",
+            "address": "The BEST stump at the Crick",
+            "phone": "JensLyndelleOfficial on Trinstagram",
+            "website": "youcanhateyourbrother2.com",
+            "imageurl": "https://raw.githubusercontent.com/NReeve160/WDD230/main/chamber/images/grandma-tree.jpg",
+            "membership": "Lyndel Level 3, Yes I made my own Level"
+        }
+    ]
+}
