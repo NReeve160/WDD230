@@ -3,5 +3,41 @@ main {
 }
 
 section {
-    background-color: #3b674b;
+    background-color: #8ab07e;
+}
+
+section {
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 20%;
+}
+
+section img{
+    max-width: 90%;
+}
+
+.cards {
+    display: grid;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 700px) {
+    body  {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .cards {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 1em;
+    }
+
+    .cards img  {
+        max-width: 80%;
+    }
+
+    .cards img:hover {
+        max-width: 100%;
+    }
 }
