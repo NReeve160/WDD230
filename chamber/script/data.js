@@ -21,8 +21,7 @@ fetch(requestURL)
     
         image.setAttribute('src', businesses[i].imageurl);
         image.setAttribute('alt', `${businesses[i].name} ${businesses[i].lastname} - ${businesses[i].order}`);
-        h2.textContent = businesses[i].name + ' ' + businesses[i].lastname;
-        name.textContent = 'Name: ' + businesses[i].name;
+        h2.textContent = businesses[i].name;
         address.textContent = 'Address: ' + businesses[i].address;
         phone.textContent = 'Phone: ' + businesses[i].phone;
         website.textContent = 'Website: ' + businesses[i].website;
