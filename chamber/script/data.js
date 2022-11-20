@@ -13,7 +13,6 @@ fetch(requestURL)
     for (let i = 0; i < businesses.length; i++) {
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
-        let name = document.createElement('p');
         let address = document.createElement('p');
         let phone = document.createElement('p');
         let website = document.createElement('p');
