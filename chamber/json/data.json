@@ -45,7 +45,7 @@
             "address": "At Balnore when he is here",
             "phone": "Balnore on the speaking stone",
             "website": "Balnoresrivertunanow.com",
-            "imageurl": "https://github.com/NReeve160/WDD230/blob/main/chamber/images/treehouse.jpg",
+            "imageurl": "https://raw.githubusercontent.com/NReeve160/WDD230/main/chamber/images/treehouse.jpg",
             "membership": "Leaf Level"
         },
         {
@@ -61,7 +61,7 @@
             "address": "The stump near the dirt road into The Crick",
             "phone": "Call Balnore on the Speaking stone, the Now Balnore",
             "website": "crickwater.com",
-            "imageurl": "https://github.com/NReeve160/WDD230/blob/main/chamber/images/living-wood.jpg",
+            "imageurl": "https://raw.githubusercontent.com/NReeve160/WDD230/main/chamber/images/living-wood.jpg",
             "membership": "Leaf Level"
         },
         {
@@ -69,7 +69,7 @@
             "address": "The BEST stump at the Crick",
             "phone": "JensLyndelleOfficial on Trinstagram",
             "website": "youcanhateyourbrother2.com",
-            "imageurl": "https://github.com/NReeve160/WDD230/blob/main/chamber/images/jens.png",
+            "imageurl": "https://raw.githubusercontent.com/NReeve160/WDD230/main/chamber/images/jens.png",
             "membership": "Lyndel Level 3, Yes I made my own Level"
         }
     ]
