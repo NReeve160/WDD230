@@ -83,6 +83,13 @@
         justify-content: center;
     }
 
+    .weather {
+        background-color: #6796a7;
+        border-radius: 15%;
+        text-align: center;
+        padding: 1em;
+    }
+
     #spotlight3 {
         display: none;
     }
