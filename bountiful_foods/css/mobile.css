@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-color: #e2e2eb;
+}
+
+body h1 {
+    font-family: 'Noto Serif', serif;
+}
+
+body p {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*logo*/
+header #logo{
+    max-width: 20%;
+    margin: auto;
+    display: block;
+}
+
+/*Navigation*/
+nav {
+    margin: 0 auto;
+    max-width: 760px;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation li a:link, a:visited {
+    text-decoration: none;
+}
+
+.responsive li {
+    display: flex;
+    justify-content: center;
+}
+
+/*main*/
+main {
+    text-align: center;
+}
+
+/*hero image*/
+.hero {
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+#smoothie {
+    max-width: 100%;
+    z-index: 0;
+}
+
+#hero-text {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(226, 226, 235, .6);
+    color: #e59800;
+    margin-right: 20%;
+    margin-left: 10%;
+}
+
+/*coastal california*/
+.section-1 {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: .5em;
+    background-color: #32CD32;
+    margin: .5em;
+}
+
+.section-1 p {
+    text-align: left;
+}
+
+/*weather*/
+.section-2 {
+    background-color: #fee12b;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    margin: .5em;
+}
+
+/*drinks*/
+.section-3 {
+    font-size: xx-large;
+    background-color: #e59800;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    margin: .5em;
+}
+
+/*footer*/
+footer img {
+    max-width: 15%;
+}
+
+footer {
+    display: block;
+}
+
+.contact-us {
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.socials {
+    margin-top: 1em;
+    justify-content: center;
+    position: relative;
+    margin-left: 27%;
+}
+
+.copy {
+    text-align: center;
+}

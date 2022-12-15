@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="BYUI Final Project">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Nathan Reeve">
+        <title>Bountiful Foods</title>
+        <link rel="normalize" href="../styles/normalize.css">
+        <link rel="stylesheet" href="css/mobile.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    </head>
+
+    <body>
+        <header>
+            <img src="images/logo-web.gif" alt="Bountiful Foods Logo" id="logo">
+        </header>
+
+        <nav>
+            <ul class="navigation">
+                <li>
+                    <a class="ham" href="#">☰</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="fresh.html">Fresh</a>
+                </li>
+                <li>
+                    <a href="about-us.html">About Us</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="hero">
+           <img src="images/hero-smoothie-element-digital-web.gif" alt="Unkown Creator, smoothie" id="smoothie">
+           <h1 id="hero-text">Bountiful Foods</h1>
+           </div>
+
+           <div class="section-1">
+                <h2>Coastal California Businss</h2>
+                <p>The California coastal region stretches 1,264 miles on the west side of California. The northern 
+                    coast is also called the Redwood empire because of the redwood forests nearby. Some cities in 
+                    the coastal region are San Francisco, San Diego, and Los Angeles</p>
+           </div>
+
+           <div class="section-2">
+            <figure>
+                <img src="" alt="" id="weather-icon" />
+                <figcaption></figcaption>
+            </figure>
+            <p><span id="current-temp"></span> &deg;F</p>
+            <p>Wind Speed: <span id="wind-speed"></span></p>
+            <p>Wind Chill: <span id="wind-chill">: </span></p>
+           </div>
+
+           <div class="section-3">
+                <h1>#Drinks</h1>
+           </div>
+        </main>
+
+        <footer>
+            <div class="contact">
+                <section class="contact-us"><a href="#">Contact Us</a></section>
+                <section class="socials">
+                    <img src="images/freepik-facebook.png" alt="facebook logo">
+                    <img src="images/freepik-instagram.png" alt="instagram logo">
+                    <img src="images/freepik-linkedin.png" alt="linkedin logo">
+                    <img src="images/freepik-twitter.png" alt="twitter logo">
+                </section>
+            </div>
+            
+            <p>&copy; <span id="currentYear"></span> | Nathan Reeve | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+            <p>Last Updated: <span id="updatedDate"></span></p>
+        </footer>
+
+    </body>
+<script src="js/ham.js"></script>
+<script src="js/weatherapi.js"></script>
+<script src="../../WDD230/scripts/updated.js"></script>
+</html>

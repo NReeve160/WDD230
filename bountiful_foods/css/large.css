@@ -1,0 +1,44 @@
+@media (min-width: 1000px) {
+    .hero img {
+        content: url("../images/hero-pinapple-lisa-fotios-web.gif");
+    }
+
+    .hero {
+        grid-column: span 3;
+    }
+
+    #hero-text {
+        top: 30%;
+        left: 15%;
+        color: #32cd32;
+        background-color: rgba(226, 226, 235, .7);
+        font-size: 5em;
+    }
+
+    .section-3 {
+        grid-column: span 1;
+        padding-top: 20%;
+    }
+
+    .contact-us {
+        padding: 2em;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation {
+        margin-left: 30%;
+        margin-right: auto;
+    }
+
+    .navigation li {
+        display: inline-block;
+        padding-right: 1em;
+    }
+
+    .section-3 {
+        padding-top: 2em;
+    }
+}

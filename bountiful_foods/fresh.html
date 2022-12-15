@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="BYUI Final Project">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Nathan Reeve">
+        <title>Bountiful Foods About Us</title>
+        <link rel="normalize" href="../styles/normalize.css">
+        <link rel="stylesheet" href="css/mobile.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="stylesheet" href="css/fresh.css">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    </head>
+
+    <body>
+        <header>
+            <img src="images/logo-web.gif" alt="Bountiful Foods Logo" id="logo">
+        </header>
+
+        <nav>
+            <ul class="navigation">
+                <li>
+                    <a class="ham" href="#">☰</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="fresh.html">Fresh</a>
+                </li>
+                <li>
+                    <a href="about-us.html">About Us</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="hero">
+           <img src="images/hero-smoothie-element-digital-web.gif" alt="Unkown Creator, smoothie" id="smoothie">
+           <h1 id="hero-text">Bountiful Foods</h1>
+           </div>
+
+           <div class="section-1">
+                <form>
+                    <label for="fname">First Name:</label><br>
+                    <input type="text" id="fname" name="fname" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email" required><br>
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name=""phone"
+                           pattern=""[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                </form>
+           </div>
+        </main>
+
+        <footer>
+            <div class="contact">
+                <section class="contact-us"><a href="#">Contact Us</a></section>
+                <section class="socials">
+                    <img src="images/freepik-facebook.png" alt="facebook logo">
+                    <img src="images/freepik-instagram.png" alt="instagram logo">
+                    <img src="images/freepik-linkedin.png" alt="linkedin logo">
+                    <img src="images/freepik-twitter.png" alt="twitter logo">
+                </section>
+            </div>
+
+            <div class="copy">
+                <p>&copy Created By Nathan Reeve</p>
+            </div>
+        </footer>
+
+    </body>
+<script src="js/ham.js"></script>
+<script src="js/weatherapi.js"></script>
+</html>
