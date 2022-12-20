@@ -1,0 +1,2 @@
+document.querySelector("#updatedDate").innerHTML = new Date(document.lastModified);
+document.querySelector("#date").innerHTML = new Date().toLocaleDateString('en-us', { weekday:"long", day:"numeric", year:"numeric"});

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+a{
+    font-family: 'Chivo Mono', monospace;
+}
+
+p{
+    font-family: 'Chivo Mono', monospace;
+}
+
+/*header*/
+
+/*Website Logo*/
+header .logo img {
+    max-width: 100%
+}
+
+/*Site Name*/
+.site-name {
+    text-align: center;
+    margin-top: -2em;
+}
+
+.site-name h1 {
+    font-family: 'Lobster', cursive;
+}
+
+/*Navisgation*/
+nav {
+    background-color: #134505;
+    padding: .1em;
+    margin-top: -1em;
+    text-align: center;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation li:first-child{
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #F0D624;
+    text-decoration: none;
+}
+
+nav a:active{
+    color: black;
+}
+
+.responsive li{
+    display: flex;
+    justify-content: center;  
+    padding-top: .4em;  
+}
+
+/*date*/
+.current-date {
+    text-align: center;
+}
+
+/*footer*/
+footer {
+    display: grid;
+    grid-gap: 1em;
+}
+
+footer .logo {
+    grid-column: 1;
+    margin-top: 1em;
+}
+
+footer .contact {
+    font-size: xx-small;
+    grid-column: 2;
+}
+
+footer .logo img {
+    max-width: 100%;
+}
+
+footer .info {
+    font-size: xx-small;
+    background-color: #303e49;
+    color: white;
+    overflow-x:hidden;
+    margin: 0;
+    padding: 1em;
+    grid-column: 1 / span 2;
+}
