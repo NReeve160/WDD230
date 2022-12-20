@@ -63,6 +63,12 @@ nav a:active{
     padding-top: .4em;  
 }
 
+.announcement {
+    display: none;
+    text-align: center;
+    margin-top: -1em;
+}
+
 /*date*/
 .current-date {
     text-align: center;
